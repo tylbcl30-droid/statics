@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    font-family: 'Josefin Sans', system-ui;
+    text-transform: uppercase;
+    background-color: #f6d8b0;
+}
+.distinct{
+    font-family: 'Luckiest Guy';
+}
+
+.box {
+    box-shadow: 3px 3px  rgb(0, 0, 0);
+  }
+
+  .button{
+    box-shadow: -2px 3px   rgb(0, 0, 0);
+  }
+
+  .button:hover{
+    background: #1F4E3D;
+    color: black;
+  }
+
+
+  .text {
+    /* Adjust font size as needed */
+   /* Add padding if needed */
+   text-shadow: 3px 3px #1F4E3D;
+  }
+
+  @keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+  }
+
+
+
+.plasenta:hover .plasenta-slide{
+   animation-play-state: paused;
+}
+
+.plasenta{
+    white-space: nowrap;
+}
+
+.plasenta-slide{
+ 
+    animation: 10s slide infinite linear;
+    
+}
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
