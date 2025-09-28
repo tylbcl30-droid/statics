@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { motion, useAnimation} from 'framer-motion';
 
 const HeroPage = () => {
-    const [text, setText] = useState("0x000000000000");
+    const [text, setText] = useState("COMING SOON");
     const [buttonText, setButtonText] = useState("Copy");
 
     const handleCopyText = () => {
