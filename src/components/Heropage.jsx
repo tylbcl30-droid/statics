@@ -18,9 +18,6 @@ const HeroPage = () => {
     return (
         <div className="w-full min-h-screen" style={{ overflow: 'hidden', backgroundColor: '#132B27' }}>
 
-            {/* Noise overlay */}
-  <div className="noise absolute inset-0 z-0"></div>
-
         <div className='mx-24 my-8 flex flex-col gap-14 max-sm:mx-8 max-lg:mx-12'>
             <div>
                 <motion.nav className='flex justify-between items-center bg-[#1F4E3D] py-4 px-8 max-sm:px-4 max-sm:py-3 rounded-lg box border border-black'
