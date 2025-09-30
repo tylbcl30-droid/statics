@@ -1,4 +1,4 @@
-import plasentaImage from '../assets/plasenta.png';
+import plasentaImage from '../assets/animation.gif';
 import { useState, useEffect } from 'react';
 import { motion, useAnimation} from 'framer-motion';
 
@@ -107,8 +107,9 @@ const HeroPage = () => {
   transition={{ duration: 1.5, ease: 'easeOut' ,delay: 0.5 }}
   style={{ overflow: 'hidden' }}
 >
-  Inspired by plasma, fueled by laughter, we’re here to keep the vibes purr-fect. 
-  Join the chaos, stay for the memes.
+  Before birth, there is Plasenta. The womb of chaos, the first meme, the origin of internet vibes. 
+  $PLASENTA — the beginning of everything.
+
 </motion.h3>
 
 
@@ -142,6 +143,15 @@ const HeroPage = () => {
   className="bg-[#1F4E3D] text-white uppercase button rounded-md px-8 py-3 max-sm:px-3 border border-black"
 >
   Buy Now
+</a>
+
+<a 
+  href="#" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="bg-[#1F4E3D] text-white uppercase button rounded-md px-8 py-3 max-sm:px-3 border border-black"
+>
+  Join The Chaos
 </a>
 
                     </motion.div>
