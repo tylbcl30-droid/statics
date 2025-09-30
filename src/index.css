@@ -67,6 +67,13 @@ body{
 .animate-chaos {
   animation: chaos 0.6s infinite ease-in-out;
 }
+
+.noise {
+  background-image: url('/noise.png'); 
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+}
+
   
 
 @tailwind base;
