@@ -55,6 +55,18 @@ body{
     animation: 10s slide infinite linear;
     
 }
+
+@keyframes chaos {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(1deg) scale(1.05); }
+  50% { transform: rotate(-1deg) scale(0.98); }
+  75% { transform: rotate(1deg) scale(1.03); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+.animate-chaos {
+  animation: chaos 0.6s infinite ease-in-out;
+}
   
 
 @tailwind base;
