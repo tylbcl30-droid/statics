@@ -42,7 +42,7 @@ const HeroPage = () => {
   rel="noopener noreferrer" 
   className="flex gap-2 items-center"
 >
-  <h3 className="max-sm:hidden text-white">Twitter</h3>
+  <h3 className="max-sm:hidden text-white animate-pulse">Twitter</h3>
   <div className="md:hidden button rounded-md border border-black p-2">
     {/* Twitter Icon */}
     <svg className="w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
@@ -58,7 +58,7 @@ const HeroPage = () => {
   rel="noopener noreferrer" 
   className="flex gap-2 items-center"
 >
-  <h3 className="max-sm:hidden text-white">Telegram</h3>
+  <h3 className="max-sm:hidden text-white animate-pulse">Telegram</h3>
   <div className="md:hidden button rounded-md border border-black p-2">
     {/* Telegram Icon */}
     <svg className="w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="currentColor">
@@ -134,7 +134,7 @@ const HeroPage = () => {
   rel="noopener noreferrer"
   className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos flex items-center gap-2"
 >
-  Dexscreener 🧪
+  Dexscreener
 </a>
 
 <a
@@ -143,7 +143,7 @@ const HeroPage = () => {
   rel="noopener noreferrer"
   className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos flex items-center gap-2"
 >
-  Buy Now 🚀
+  Buy Now
 </a>
 
 <a
@@ -152,7 +152,7 @@ const HeroPage = () => {
   rel="noopener noreferrer"
   className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos flex items-center gap-2"
 >
-  Join The Chaos 🌀
+  Join The Chaos?
 </a>
 
                     </motion.div>
