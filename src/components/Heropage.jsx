@@ -140,8 +140,9 @@ const HeroPage = () => {
   transition={{ duration: 1.5, ease: 'easeOut' ,delay: 0.5 }}
   style={{ overflow: 'hidden' }}
 >
-  Before birth, there is Plasenta. The womb of chaos, the first meme, the origin of internet vibes. 
-  $PLASENTA — the beginning of everything.
+ Before birth, there was $PLASENTA.
+Before plasma, there was $PLASENTA.
+Before everything, there was $PLASENTA.
 
 </motion.h3>
 
