@@ -69,7 +69,7 @@ const HeroPage = () => {
                     <div className='gap-6 max-lg:gap-3 flex items-center'>
  {/* Twitter */}
 <a 
-  href="#" 
+  href="https://x.com/plasentaxpl" 
   target="_blank" 
   rel="noopener noreferrer" 
   className="flex gap-2 items-center"
