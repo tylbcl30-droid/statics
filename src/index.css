@@ -86,6 +86,12 @@ body{
   100% { background-position: 0% 50%; }
 }
 
+.bg-aurora {
+  background: linear-gradient(270deg, #132B27, #1F4E3D, #2E6B52);
+  background-size: 600% 600%;
+  animation: auroraShift 20s ease infinite;
+}
+
 
 @tailwind base;
 @tailwind components;
