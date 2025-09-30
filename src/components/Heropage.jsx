@@ -28,9 +28,9 @@ const HeroPage = () => {
                 >
                     <a href="" className='flex items-center gap-2'>
   <img className='w-10 p-1 rounded-full bg-[#132B27]' src={plasentaImage} />
-  <h3 className='distinct font-bold text-2xl max-sm:hidden uppercase tracking-widest text-white'>
-    $PLASENTA
-  </h3>
+  <h3 className='distinct font-bold text-xl max-sm:hidden uppercase tracking-widest text-white animate-pulse'>
+  $PLASENTA
+</h3>
 </a>
 
 
@@ -127,31 +127,31 @@ const HeroPage = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1.5, ease: 'easeOut' ,delay: 1.5 }}
                     >
-<a 
-  href="#" 
-  target="_blank" 
+<a
+  href="#"
+  target="_blank"
   rel="noopener noreferrer"
-  className="bg-[#1F4E3D] text-white uppercase button rounded-md px-8 py-3 max-sm:px-3 border border-black"
+  className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos"
 >
-  Dexscreener
+  Dexscreener 🧪
 </a>
 
-<a 
-  href="#" 
-  target="_blank" 
+<a
+  href="#"
+  target="_blank"
   rel="noopener noreferrer"
-  className="bg-[#1F4E3D] text-white uppercase button rounded-md px-8 py-3 max-sm:px-3 border border-black"
+  className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos"
 >
-  Buy Now
+  Buy Now 🚀
 </a>
 
-<a 
-  href="#" 
-  target="_blank" 
+<a
+  href="#"
+  target="_blank"
   rel="noopener noreferrer"
-  className="bg-[#1F4E3D] text-white uppercase button rounded-md px-8 py-3 max-sm:px-3 border border-black"
+  className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos"
 >
-  Join The Chaos
+  Join The Chaos 🌀
 </a>
 
                     </motion.div>
