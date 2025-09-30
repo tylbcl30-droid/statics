@@ -18,6 +18,38 @@ const HeroPage = () => {
     return (
         <div className="w-full min-h-screen relative bg-aurora overflow-hidden" style={{ overflow: 'hidden', backgroundColor: '#132B27' }}>
 
+            <div className="pointer-events-none absolute inset-0 -z-10">
+  {Array.from({ length: 50 }).map((_, i) => {
+    const size = Math.random() * 3 + 2;    // ukuran 2–5 px
+    const left = Math.random() * 100;      // posisi X %
+    const top = Math.random() * 100;       // posisi Y %
+    const delay = Math.random() * 5;       // jeda mulai random
+    const dur = Math.random() * 3 + 2;     // durasi kedip 2–5 detik
+
+    return (
+      <motion.span
+        key={i}
+        className="absolute rounded-full bg-white"
+        style={{
+          width: size,
+          height: size,
+          left: `${left}%`,
+          top: `${top}%`,
+          filter: "drop-shadow(0 0 6px rgba(255,255,255,0.8))",
+        }}
+        animate={{ opacity: [0.2, 1, 0.2], scale: [1, 1.3, 1] }}
+        transition={{
+          duration: dur,
+          delay,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+    );
+  })}
+</div>
+
+
         <div className='mx-24 my-8 flex flex-col gap-14 max-sm:mx-8 max-lg:mx-12'>
             <div>
                 <motion.nav className='flex justify-between items-center bg-[#1F4E3D] py-4 px-8 max-sm:px-4 max-sm:py-3 rounded-lg box border border-black'
