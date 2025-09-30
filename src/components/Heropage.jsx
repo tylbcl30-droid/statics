@@ -104,7 +104,7 @@ const HeroPage = () => {
 
                     <div>
   <a 
-    href="https://dyorswap.finance/swap/?chainId=9745" 
+    href="https://dyorswap.org/launchinfo/?id=0xb2cBbF93f1751098d4194C4539DcE3f02522b25f&chainId=9745" 
     target="_blank" 
     rel="noopener noreferrer"
     className="uppercase bg-[#1F4E3D] text-white button rounded-md px-4 py-2 max-sm:text-sm border border-black"
@@ -177,7 +177,7 @@ const HeroPage = () => {
 </a>
 
 <a
-  href="https://dyorswap.finance/swap/?chainId=9745"
+  href="https://dyorswap.org/launchinfo/?id=0xb2cBbF93f1751098d4194C4539DcE3f02522b25f&chainId=9745"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos flex items-center gap-2"
