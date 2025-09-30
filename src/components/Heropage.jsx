@@ -140,9 +140,23 @@ const HeroPage = () => {
   transition={{ duration: 1.5, ease: 'easeOut' ,delay: 0.5 }}
   style={{ overflow: 'hidden' }}
 >
- Before birth, there was $PLASENTA.
-Before plasma, there was $PLASENTA.
-Before everything, there was $PLASENTA.
+<div className="text-sm pb-8 leading-6 text-white">
+  {[
+    "Before birth, there was $PLASENTA.",
+    "Before plasma, there was $PLASENTA.",
+    "Before everything, there was $PLASENTA."
+  ].map((line, i) => (
+    <motion.p
+      key={i}
+      initial={{ x: '30%', opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ duration: 1.2, ease: 'easeOut', delay: i * 0.5 }}
+    >
+      {line}
+    </motion.p>
+  ))}
+</div>
+
 
 </motion.h3>
 
