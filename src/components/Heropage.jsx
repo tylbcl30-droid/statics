@@ -28,14 +28,11 @@ const HeroPage = () => {
                 >
                     <a href="" className='flex items-center gap-2'>
   <img className='w-10 p-1 rounded-full bg-[#132B27]' src={plasentaImage} />
- <h3 className='distinct font-bold text-base max-sm:hidden uppercase tracking-widest text-white animate-glitch'>
-  $PLASENTA
-</h3>
+ <h3 className='distinct font-bold text-xl max-sm:hidden uppercase tracking-widest text-white animate-pulse'>
 </a>
 
 
                     <div className='gap-6 max-lg:gap-3 flex items-center'>
-  {/* Twitter */}
  {/* Twitter */}
 <a 
   href="#" 
@@ -89,13 +86,11 @@ const HeroPage = () => {
             <div className='flex justify-between max-lg:flex-col lg:items-center gap-12'>
                 <div className='flex flex-col lg:w-1/2 '>
                 <motion.h1 
-  className="distinct text-[9rem] max-lg:text-[7rem] max-sm:text-[4.5rem] tracking-wider font-[900] leading-[1.1] text-white"
-  initial={{ x: '30%', opacity: 0 }}
-  animate={{ x: 0, opacity: 1 }}
-  transition={{ duration: 1.5, ease: 'easeOut' }}
-  style={{ overflow: 'visible' }}
+  className="distinct text-[5rem] max-lg:text-[4rem] max-sm:text-[2.5rem] tracking-wider font-[900] leading-[1.1] text-white"
+  animate={{ opacity: [1, 0.7, 1, 0.5, 1] }}
+  transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }}
 >
-  $Plasenta
+  $Plasenta 
 </motion.h1>
 
 
