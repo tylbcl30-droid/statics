@@ -168,7 +168,7 @@ const HeroPage = () => {
                         transition={{ duration: 1.5, ease: 'easeOut' ,delay: 1.5 }}
                     >
 <a
-  href="#"
+  href="https://dexscreener.com/plasma/0xb2cbbf93f1751098d4194c4539dce3f02522b25f"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-[#1F4E3D] text-white uppercase text-sm tracking-wide rounded-md px-6 py-2 border border-black transition duration-300 hover:scale-105 hover:bg-[#2E6B52] animate-chaos flex items-center gap-2"
