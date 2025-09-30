@@ -16,7 +16,7 @@ const HeroPage = () => {
 
 
     return (
-        <div className="w-full min-h-screen relative bg-aurora" style={{ overflow: 'hidden', backgroundColor: '#132B27' }}>
+        <div className="w-full min-h-screen relative bg-aurora overflow-hidden" style={{ overflow: 'hidden', backgroundColor: '#132B27' }}>
 
         <div className='mx-24 my-8 flex flex-col gap-14 max-sm:mx-8 max-lg:mx-12'>
             <div>
