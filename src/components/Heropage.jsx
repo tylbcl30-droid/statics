@@ -28,7 +28,9 @@ const HeroPage = () => {
                 >
                     <a href="" className='flex items-center gap-2'>
   <img className='w-10 p-1 rounded-full bg-[#132B27]' src={plasentaImage} />
- <h3 className='distinct font-bold text-xl max-sm:hidden uppercase tracking-widest text-white animate-pulse'>
+ <h3 className='distinct font-bold text-base max-sm:hidden uppercase tracking-widest text-white animate-pulse'>
+  $PLASENTA
+</h3>
 </a>
 
 
