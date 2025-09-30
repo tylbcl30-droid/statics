@@ -88,11 +88,15 @@ const HeroPage = () => {
             <div className='flex justify-between max-lg:flex-col lg:items-center gap-12'>
                 <div className='flex flex-col lg:w-1/2 '>
                 <motion.h1 
-  className="distinct text-[5rem] max-lg:text-[4rem] max-sm:text-[2.5rem] tracking-wider font-[900] leading-[1.1] text-white"
-  animate={{ opacity: [1, 0.7, 1, 0.5, 1] }}
-  transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }}
+  className="distinct text-[6.5rem] max-lg:text-[5rem] max-sm:text-[3.5rem] tracking-wider font-[900] leading-[1.1] text-white"
+  animate={{
+    rotate: [0, 2, -2, 2, -2, 0],
+    scale: [1, 1.05, 0.98, 1.03, 1],
+    opacity: [1, 0.9, 1]
+  }}
+  transition={{ duration: 1.2, repeat: Infinity, ease: 'easeInOut' }}
 >
-  $Plasenta 
+  $Plasenta
 </motion.h1>
 
 
