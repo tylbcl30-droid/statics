@@ -133,32 +133,24 @@ const HeroPage = () => {
 
 
 
-<motion.h3 
-  className='text-sm pb-8 leading-6 text-white'
-  initial={{ x: '30%', opacity: 0 }}
-  animate={{ x: 0, opacity: 1 }}
-  transition={{ duration: 1.5, ease: 'easeOut' ,delay: 0.5 }}
-  style={{ overflow: 'hidden' }}
->
-<div className="text-sm pb-8 leading-6 text-white">
+<div className="pb-8 leading-6 text-white">
   {[
     "Before birth, there was $PLASENTA.",
     "Before plasma, there was $PLASENTA.",
     "Before everything, there was $PLASENTA."
   ].map((line, i) => (
-    <motion.p
+    <motion.h3
       key={i}
-      initial={{ x: '30%', opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 1.2, ease: 'easeOut', delay: i * 0.5 }}
+      className="text-sm"
+      initial={{ y: -20, opacity: 0 }}   // bisa ganti ke x kalau mau slide dari kanan
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut", delay: i * 0.5 }}
     >
       {line}
-    </motion.p>
+    </motion.h3>
   ))}
 </div>
 
-
-</motion.h3>
 
 
                     <motion.div className='flex max-sm:flex-col max-sm:gap-3 items-center rounded-md bg-[#1F4E3D] py-3 px-3 rounded-lg box border border-black justify-between mb-6'
